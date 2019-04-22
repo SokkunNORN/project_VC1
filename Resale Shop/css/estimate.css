@@ -1,0 +1,437 @@
+/*   ##################################################################################
+	 #					Author by: Rothana SUOS                                       #
+	 #							   Hany Sreng		                                          #
+	 ##################################################################################
+ */
+
+
+/*@font-face {
+font-family:Roboto-Regular.ttf ;
+src: url(fonts/Roboto-Regular.ttf);
+}*/
+
+
+body {
+	font-family:sans-serif;
+	font-size: 15px;
+}
+
+/*block of header style*/
+
+.header{
+	height: 130px;
+	width: 100%;
+	background:  #00796b;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+/*Banner style*/
+
+img{
+	height: 110px;
+	width: 650px;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+
+/*block of logo style*/
+
+.logo{
+	margin-right: 1134.5px;
+    width: 185px;
+    height: 135px;
+    margin-top: -11px;
+}
+.logoFooter{
+	margin-right: 43%;
+	width: 185px;
+	height: 135px;
+	margin-top: .5%;
+}
+
+/*block of menu style*/
+
+.menu ul {
+	position: absolute;
+	top: 130px;
+	width: 100%;
+	left: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00695c;
+
+}
+.menu li {
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+.menu a{
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 17px;
+}
+
+/*block footer style*/
+
+.footer{
+	height: 260px;
+	width: 100%;
+	background: #37474f;
+	position: absolute;
+	top: 800px;
+	left: 0px;
+}
+
+/*block of social media icon  style on footer*/
+
+.facebook,
+.google,
+.youtube,
+.twitter{
+	width: 30px;
+	height: 30px;
+	opacity: 0.7;
+	margin-right: 14%;
+}
+.twitter{
+ 	margin-top: 2%;
+ 	z-index: 1;
+}
+.facebook{
+ 	margin-top: 6%
+}
+.google{
+ 	margin-top: 10%
+}
+.youtube{
+ 	margin-top: 14%;
+}
+
+/*block of socail media link style*/
+
+.facebookLink,
+.googleLink,
+.youtubeLink,
+.twitterLink{
+	position: absolute;
+	color: white;
+}
+.twitterLink{
+	top: 15%;
+	right: 6.5%;
+}
+.facebookLink{
+	top: 37%;
+	right: 5.5%;
+}
+.googleLink{
+	top: 58%;
+	right: 6.5%;
+}
+.youtubeLink{
+	top: 77%;
+	right: 5.8%;
+}
+
+/*style of execution page (middle)*/
+
+.container{
+	width: 1350px;
+	height: 700px;
+	position: absolute;
+	left: 0;
+	top: 190px;
+	background: white;
+
+}
+
+/*block of primecost style*/
+.primeCost{
+	position: absolute;
+	top: 95px;
+	left: 350px;
+	height: 25px;
+	width: 200px;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid  #0052cc;
+}
+.primeCostText2{
+	position: absolute;
+	top: 86px;
+	font-size: 17px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 17px;
+	left: 560px;
+}
+
+/*Block of Copyright icon and text style on footer*/
+
+.copyright{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 57%;
+	top: 69%;
+	opacity: 0.7;
+}
+.copyrightText p{
+	position: absolute;
+	top: 65%;
+	right: 45.5%;
+	font-size: 14px;
+	z-index: 1;
+	color: white;
+	opacity: 0.7;
+}
+.PNC p{
+	position: absolute;
+	top: 75%;
+	right: 43%;
+	font-size: 14px;
+	z-index: 1;
+	color: white;
+	opacity: 0.7
+}
+
+/*block of number of km style*/
+
+.numberOfKm{
+	position: absolute;
+	left: 850px;
+	top:  95px;
+	border:none;
+	width: 200px;
+	outline: none;
+	border-bottom: 1px solid #0052cc;
+	height: 25px;
+}
+.numberOfKmText{
+	position: absolute;
+	left: 850px;
+	top:  90px;
+	height: 25px;
+	font-family:  Arial, sans-serif;
+	font-size: 12px;
+	opacity: 0.6;
+}
+/*block of brand style*/
+
+.brand{
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #0052cc; 
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 185px;
+	left: 350px;
+	opacity: 0.7;
+}
+
+/*blick of useage duration style*/
+
+.usageDuration{
+	border:none;
+	outline: none;
+	border-bottom:1px solid #0052cc;
+	height: 25px;
+	width: 200px;
+	position: absolute;
+	top: 280px;
+	left: 350px;
+}
+
+/*block of condition style*/
+
+.condition{
+	position: absolute;
+	left: 900px;
+	top:  130px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 20px;
+}
+.checkboxNew{
+	position: absolute;
+	left: 1000px;
+	top:  160px;
+	height: 20px;
+	width: 20px;
+}
+.checkboxNewText,
+.checkboxOldText,
+.checkboxDamageText{
+	position: absolute;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 17px;
+}
+.checkboxNew,
+.checkboxOld,
+.checkboxDamage{
+	position: absolute;
+	height: 20px;
+	width: 20px;
+
+}
+.checkboxNewText{
+	left: 1040px;
+	top:  143px;
+}
+.checkboxOld{
+	left: 1000px;
+	top:  190px;
+}
+.checkboxOldText{
+	left: 1040px;
+	top:  173px;
+}
+.checkboxDamage{
+	left: 1000px;
+	top:  220px;
+}
+.checkboxDamageText{
+	left: 1040px;
+	top:  203px;
+}
+input:checked + p{
+	color: red;
+}
+
+/*botton for estimate prices*/
+
+button{
+	position: absolute;
+	left: 900px;
+	top:  295px;
+	width: 150px;
+	height: 45px;
+	border-radius: 7px;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	background: #00695c;
+	border:none;
+	color: white;
+	border-radius: 30px;
+	cursor: pointer;
+	outline: none;
+}
+
+/*The border that cover execution type in container div*/
+
+fieldset{
+	width: 65%;
+	height: 50%;
+	margin-left: 17.5%;
+	margin-top: 2%;
+}
+
+/* dav for display price after estrimation */
+
+.priceText{
+	height: 10%;
+	width: 67%;
+	border:1px solid black;
+	margin-left: 17.5%;
+	margin-top: 2%;
+	color: white;
+	background: #00695c;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 17px;
+	
+}
+
+/*block of address of comanpy*/
+
+.point{
+	height: 100px;
+	width:100px;
+	position: absolute;
+	right: 83%;
+	top: 18%;
+	opacity: 0.7;
+
+}
+.checkpoint{
+	position: absolute;
+	right: 73%;
+	top: 55%;
+	color: white;
+	opacity: 0.7;
+}
+
+/*block underline from social media link*/
+
+.footer a{
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+/*style under logo on footer*/
+
+hr{
+	width: 60px;
+}
+.right{
+	position: absolute;
+	right: 53%;
+	top: 62%;
+}
+.left{
+	position: absolute;
+	right: 46%;
+	top: 62%;
+}
+.footer h2{
+	position: absolute;
+	right:51%;
+	top: 48%;
+	color: white;
+	opacity: 0.7;
+}
+.priceText p{
+	text-align:center;
+}
+
+input:focus + label,input:valid + label{
+	top: 80px;
+	color: blue;
+}
+.prCost{
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	height: 25px;
+	opacity: .7;
+}
+.numOfKm{
+	position: absolute;
+	left: 850px;
+	top:  100px;
+	opacity: 0.7;
+}
+input:focus + spen,input:valid + spen{
+	top: 267px;
+	color: blue;
+}
+.durationUse{
+	position: absolute;
+	top: 282px;
+	left: 350px;
+	opacity: 0.7;
+}
+.EstimationMenu{
+	background: #111;
+}

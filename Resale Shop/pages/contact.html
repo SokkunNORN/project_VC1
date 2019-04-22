@@ -1,0 +1,142 @@
+<!-- ###################################################################################
+     #                  Author by: Sokun NORN                                          #
+     #                                                                                 #
+     ################################################################################### -->
+ 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resale Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/contact.min.css">
+    <link rel="icon" type="image/png" href="../images/lastlogo.png">
+	
+</head>
+<body>
+
+    <header>
+        <div class='header'>
+            <img src="../images/banner.png">
+            <a href="../index.html">
+                <img class="logo" src="../images/lastlogo.png">
+            </a>    
+        </div>
+                
+        <div class="menu">
+            <ul>
+                        
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="Estimation.html">Estimation price</a></li>
+                <li><a href="#" class="ContactMenu">Contact us</a></li>
+                        
+            </ul>
+        </div>
+    </header>
+
+    <!-- body page contact us -->
+    <div class="bodyContact">
+        <div class="map">
+            <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.
+                    0142666351653!2d104.88086341480785!3d11.
+                    550834091798873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                    1!3m3!1m2!1s0x310951add5e2cd81%3A0x171e0b69c7c6f7ba!
+                    2sPasserelles+num%C3%A9riques+Cambodia+(PNC)!
+                    5e0!3m2!1sen!2skh!4v1537363438864">
+                </iframe>
+            </p>
+        </div>
+
+        <div class="contact">
+            <form name="form" onsubmit="return false">
+                <input type="text" id="enterName" name="userName" required=''
+                    onkeyup="toMessageName()" onclick="toMessageName()">
+                <label class="label1">Enter your name:</label>
+                    <br><br><br>
+                <p id="messageName"></p>
+
+                <input type="text" id="enterEmail" name="email" required=''
+                    onkeyup="toMessageEmail(document.form.email)" 
+                    onclick="toMessageEmail(document.form.email)">
+                <label class="label2">Enter your email:</label>
+                    <br><br><br>
+                <p id="messageEmail"></p>
+
+                <textarea name="enterMessage" id="enterMessage" required=''
+                    onkeyup="toMessage()" onclick="toMessage()"></textarea>
+                <label class="label3">Enter your message:</label>
+                    <br><br><br>
+                <p id="messageCommand"></p> 
+                
+                <div class="button">
+                    <button class="buttonContact" onclick="contactUs(document.form.email)">
+                        Contact Us
+                    </button><br>
+                    <h1>OR</h1>
+                    <button class="buttonClear" onclick="buttonClear()">Clear</button>
+                </div>   
+            </form>
+        </div>
+    </div>
+
+    <!-- footer page contact us -->
+    <footer>
+        <div class="footer">
+                    
+            <!-- Icon on the footer -->
+    
+            <img class="twitter" src="../images/twitter.png" alt="no no" class="img1" title="Twitter">
+            <a class="twitterLink" href="https://www.twitter.com">www.twitter.com</a>
+                    
+            <img class="facebook" src="../images/facebook.png" class="img2" title="Facebook">
+            <a class="facebookLink" href="https://www.facebook.com">www.facebook.com</a>
+                    
+            <img class="google" src="../images/google.png" class="img3" title="Google">
+            <a class="googleLink" href="https://www.google.com">www.google.com</a>
+                    
+            <img class="youtube" src="../images/youtube.png" class="img4" title="Youtube">
+            <a class="youtubeLink" href="https://www.youtube.com">www.youtube.com</a>
+                    
+            <!-- logo on the footer -->
+    
+            <img class="logoFooter" src="../images/lastlogo.png">
+    
+            <!-- The style under footer logo -->
+    
+            <hr class="left"><hr class="right"><h2>​&#9851;</h2>
+                        
+            <!-- copyright text on the footer -->
+    
+            <div class="copyrightText">
+                <p class="copyrightText">Copyright by: PNC2019</p>
+                <div class="PNC">
+                    <p>Passerellesnumeriques cambodia(PNC)</p>
+                </div>
+            </div>
+    
+            <!-- copy right icon on footer -->
+                    
+            <img class="copyright" src="../images/copyright.png">
+    
+            <!-- The image of checking place on footer -->
+    
+            <img class="point" src="../images/point.png">
+            <p class="checkpoint">
+                BP 511 St. 371 Phum Tropeang Chhuk (Borey Sorla)<br>
+                Sangtak Tek Thla, Khan Saen Sokh, Phnom Penh
+            </p>
+    
+        </div>
+    
+    </footer>
+
+    <script src="../js/contact.min.js"></script>
+
+</body>
+
+</html>
